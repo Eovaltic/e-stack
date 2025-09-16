@@ -57,3 +57,7 @@ npm install @eovaltic/e-reset
 ## 📄 Licencia / License
 
 MIT License © 2025 EOVALTIC – Edwing Ovalle
+
+---
+🔑 Conexión SSH verificada el 16-sept-2025.
+
