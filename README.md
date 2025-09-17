@@ -52,39 +52,55 @@ Each module can be replaced or omitted if the user already has their own impleme
 
 ## 📦 Módulos actuales / Current Modules
 
+- [@eovaltic/e-reseter](./packages/e-reseter) → CSS Reset agresivo (inspirado en Eric Meyer).  
+  Aggressive CSS Reset (inspired by Eric Meyer).  
+
+*(Próximamente más módulos: layouts, utilidades, tipografía, etc.)*
 
 ---
 
 ## 🚀 Instalación / Installation
 
+Cada módulo de E-Stack se instala por separado usando **npm**:
+
+**ES:**  
 ```bash
-npm install @eovaltic/e-reset
+npm install @eovaltic/e-reseter
 ```
+Ver instrucciones detalladas de uso en [`packages/e-reseter/README.md`](./packages/e-reseter/README.md).
 
-**Uso en HTML:**
-
-```html
-<link rel="stylesheet" href="./node_modules/@eovaltic/e-reset/_reset.css">
+**EN:**  
+```bash
+npm install @eovaltic/e-reseter
 ```
+See detailed usage instructions in [`packages/e-reseter/README.md`](./packages/e-reseter/README.md).
 
-**Uso en CSS/SCSS:**
+---
 
-```css
-@import "@eovaltic/e-reset/_reset.css";
-```
+## 🛣️ Roadmap
+
+| Módulo / Module     | Estado / Status       | Notas / Notes |
+|---------------------|-----------------------|---------------|
+| **E-Reseter**       | ✅ Activo / Active     | CSS Reset agresivo |
+| **E-Initializer**   | 📝 Planeado / Planned | Configuraciones globales y dependencias |
+| **E-Layouter**      | 📝 Planeado / Planned | Layout base: grids, columnas, contenedores |
+| **E-Renderer**      | 📝 Planeado / Planned | Renderizado de componentes reutilizables |
+| **E-Statekeeper**   | 📝 Planeado / Planned | Manejo de estados temporales |
+| **E-Themer**        | 📝 Planeado / Planned | Temas, colores, variables globales |
+| **E-Handler**       | 📝 Planeado / Planned | Eventos, inputs y acciones de usuario |
+| **E-Storer**        | 📝 Planeado / Planned | Manejo de datos locales/remotos |
+| **E-Connector**     | 📝 Planeado / Planned | APIs externas, sockets, servidores |
+| **E-Authenticator** | 📝 Planeado / Planned | Autenticación, roles, permisos |
+| **E-Notifier**      | 📝 Planeado / Planned | Notificaciones, alertas, mensajes |
 
 ---
 
 ## 👤 Autor / Author
 
-**EOVALTIC – Edwing Ovalle**
+**EOVALTIC – Edwing Ovalle**  
 
 ---
 
 ## 📄 Licencia / License
 
 MIT License © 2025 EOVALTIC – Edwing Ovalle
-
----
-🔑 Conexión SSH verificada el 16-sept-2025.
-
