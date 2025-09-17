@@ -1,0 +1,19 @@
+{
+  "name": "e-stack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "E-Stack: Monorepo modular de CSS basado en SMACSS, con múltiples módulos gestionados como workspaces.",
+  "author": "EOVALTIC - Edwing Ovalle",
+  "license": "MIT",
+  "scripts": {
+    "install-all": "npm install",
+    "build": "echo 'Build script general, puedes personalizar según cada módulo'",
+    "lint": "echo 'Lint general, ejecutar linters de cada paquete si es necesario'",
+    "test": "echo 'Test general, ejecutar tests de cada paquete si los hay'"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}
