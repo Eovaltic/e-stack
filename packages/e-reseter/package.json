@@ -1,0 +1,15 @@
+{
+  "name": "@eovaltic/e-reseter",
+  "version": "1.0.0",
+  "description": "ES: Reset CSS agresivo para proyectos frontend. | EN: Aggressive CSS reset for frontend projects.",
+  "main": "_e-reseter.css",
+  "keywords": [
+    "css",
+    "reset",
+    "frontend",
+    "modular",
+    "e-stack"
+  ],
+  "author": "EOVALTIC – Edwing Ovalle",
+  "license": "MIT"
+}

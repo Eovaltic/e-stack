@@ -1,0 +1,108 @@
+/* ==========================================================================
+   E-Reseter v2.0.0
+   Aggressive CSS Reset (Extended)
+   Author / Autor: EOVALTIC - Edwing Ovalle
+   ========================================================================== */
+
+/* ==========================================================================
+   1. Base HTML adjustments / Ajustes base del HTML
+   ========================================================================== */
+
+html {
+  line-height: 1.15; /* Improve text readability / Mejora legibilidad del texto */
+  -webkit-text-size-adjust: 100%; /* Prevent iOS text auto-zoom / Evita zoom automático en iOS */
+}
+
+body {
+  min-height: 100vh; /* Ensure full height / Asegura altura mínima */
+  text-rendering: optimizeSpeed; /* Improve rendering performance / Mejora rendimiento de renderizado */
+  line-height: 1.5; /* Balanced line-height / Altura de línea balanceada */
+  margin: 0; /* Remove default margin / Elimina margen por defecto */
+}
+
+/* ==========================================================================
+   2. Box sizing rules / Reglas de box-sizing
+   ========================================================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* ==========================================================================
+   3. Remove default margins / Eliminar márgenes por defecto
+   ========================================================================== */
+
+h1, h2, h3, h4, h5, h6,
+p, figure, blockquote,
+dl, dd {
+  margin: 0;
+}
+
+/* ==========================================================================
+   4. Lists reset / Reset de listas
+   ========================================================================== */
+
+ul[role="list"],
+ol[role="list"] {
+  list-style: none; /* Remove bullets and numbers / Elimina viñetas y números */
+}
+
+ul, ol {
+  padding: 0; /* Remove padding / Elimina padding */
+}
+
+/* ==========================================================================
+   5. Links / Enlaces
+   ========================================================================== */
+
+a {
+  text-decoration: none; /* Remove underline / Elimina subrayado */
+  color: inherit; /* Inherit text color / Hereda color del texto */
+}
+
+/* ==========================================================================
+   6. Images & Media / Imágenes y medios
+   ========================================================================== */
+
+img, picture, video {
+  max-width: 100%; /* Scale responsively / Escala de forma responsiva */
+  display: block;  /* Avoid inline gaps / Evita espacios en línea */
+  height: auto;    /* Maintain proportions / Mantiene proporciones */
+}
+
+/* ==========================================================================
+   7. Tables / Tablas
+   ========================================================================== */
+
+table {
+  border-collapse: collapse; /* Merge borders / Une bordes */
+  border-spacing: 0;         /* Remove spacing / Elimina espacios */
+}
+
+/* ==========================================================================
+   8. Forms & Inputs / Formularios e inputs
+   ========================================================================== */
+
+button, input, select, textarea {
+  margin: 0;       /* Remove default margin / Elimina margen por defecto */
+  font: inherit;   /* Inherit font / Hereda tipografía */
+  background: none;/* Remove default background / Elimina fondo por defecto */
+  border: none;    /* Remove default border / Elimina borde por defecto */
+  color: inherit;  /* Inherit text color / Hereda color de texto */
+}
+
+textarea {
+  resize: vertical; /* Allow only vertical resize / Permite solo redimensionar verticalmente */
+}
+
+/* ==========================================================================
+   9. Typography helpers / Ayudas tipográficas
+   ========================================================================== */
+
+b, strong {
+  font-weight: bolder; /* Normalize bold / Normaliza negritas */
+}
+
+
